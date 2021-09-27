@@ -46,6 +46,8 @@ p.testimonial-text {
 
 p.signature {
     text-align: end;
+    font-weight: bolder;
+
 }
 
 
@@ -86,6 +88,16 @@ ul.nav-list{
     font-size: 48px;
 }
 
+.header-box-button {
+    background-color: #3882F6;
+    display: inline;
+    font-size: 16px;
+    padding: 5px;
+    border-radius: 5px;
+
+
+}
+
 .header-box2 {
     height: 150px;
     width: 350px;
@@ -112,16 +124,23 @@ ul.nav-list{
 .main-boxes {
     display: flex;
     justify-content: center;
+    flex-wrap:wrap;
     gap: 35px;
 }
 
 .main-box1, .main-box2, .main-box3, .main-box4 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
     padding: 1px;
+
     
 }
 
 .main-container2 {
     display: flex;
+    flex-direction: column;
+    align-items: center;
     justify-content: center;
     background-color: #E5E7EB;
     padding: 100px;
@@ -150,11 +169,13 @@ ul.nav-list{
 
 .call-to-action-button-text {
         background-color: #3882F6;
+        text-align: center;
         border: 1px solid white;
         border-radius: 5px;
         padding: 10px;
         color:#F9FAF8;
-        font-size: 10px;
+        font-size: 14px;
+        width: 70px;
 }
 
 .footer {
